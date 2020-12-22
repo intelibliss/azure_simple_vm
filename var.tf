@@ -56,4 +56,12 @@ variable "hostname" {
   description = "VM name referenced also in storage-related names."
   default="tf"
 }
-
+variable "tags" {
+  description = "The tags to assign to the virtual machine."
+  type = map
+  default = {
+    ansible_role = "cloud_connector"
+    environment  = "development",
+    provider     = "ServiceNow",
+  }
+}
