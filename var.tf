@@ -3,7 +3,7 @@ variable "prefix" {
 }
 
 variable "region" {
-  description = "The Azure Region in which all resources in this example should be created"
+  description = "The Azure Region in which all resources in this example should be created, testing the upate"
 }
 
 
@@ -18,7 +18,7 @@ variable "vmSize" {
 }
 variable "admin_username" {
   description = "administrator user name"
-  default     = "vmadmin"
+  default     = "vmadmin1"
 }
 
 variable "admin_password" {
