@@ -49,7 +49,7 @@ variable "image_sku" {
 }
 
 variable "image_version" {
-  description = "version of the image to apply (az vm image list)"
+  description = "version of the image to apply (az vm image list), also this"
   default     = "latest"
 }
 variable "hostname" {
