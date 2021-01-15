@@ -53,6 +53,6 @@ variable "image_version" {
   default     = "latest"
 }
 variable "hostname" {
-  description = "VM name referenced also in storage-related names."
-  default="tf"
+  description = "VM name referenced also in storage-related names. This is a test to check if it's updated"
+  default="tf1"
 }
