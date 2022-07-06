@@ -14,7 +14,7 @@ variable "resourceGroup" {}
 variable "tenantId" {}
 variable "vmSize" {
   description = "Specifies the size of the virtual machine."
-  default     = "Standard_D1"
+  default     = "D2as_v5"
 }
 variable "admin_username" {
   description = "administrator user name"
