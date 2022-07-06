@@ -3,7 +3,7 @@
                "resourceGroup":{
                      "datasource":"ServiceNow::Pools::ResourceGroupPool.getByLDC"
                 },
-		"vmSize":{
+		"vmSize1":{
               	      "datasource":"ServiceNow::Pools::ComputeTemplatePool.getTemplateNameByLDC"
                 }
 
